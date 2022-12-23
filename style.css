@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (min-width: 1199px) and (max-width: 1399px) {
+    .container{
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .container {
+      max-width: 990px;
+      width: 100%;
+      margin: 0 auto;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .container {
+      max-width: 750px;
+      width: 100%;
+      margin: 0 auto;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .container {
+      max-width: 570px;
+      width: 100%;
+      margin: 0 auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+      width: 100%;
+      padding: 0 15px;
+    }
+}
